@@ -5,14 +5,83 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Geometrical figures</title>
 </head>
 <body>
 
-<h1>Geometrical figures</h1>
+<header class="header">
+    <h1>Geometrical figures</h1>
+    <p>First workshop of the Practical JS course</p>
+</header>
+
+<section class="figures">
+
+    <article class="figures__card">
+        <h2>Square <span class="material-icons-outlined">check_box_outline_blank</span></h2>
+        <form>
+            <label for="sideSquare">Enter the side of the square</label>
+            <input id="sideSquare" name="side" type="number">
+            <div>
+                <button type="button" class="btn btn-perimeter" onclick="calculatePerimeterSquare()">
+                    Calculate perimeter
+                </button>
+                <button type="button" class="btn btn-area" onclick="calculateAreaSquare()">
+                    Calculate Area
+                </button>
+            </div>
+        </form>
+    </article>
+
+    <article class="figures__card">
+        <h2>Triangle <span class="material-icons-outlined">change_history</span></h2>
+        <form>
+            <label for="sideA">Enter the side of the square</label>
+            <input id="sideA" name="side" type="number">
+            <label for="sideB">Enter the side of the square</label>
+            <input id="sideB" name="side" type="number">
+            <label for="base">Enter the base of the square</label>
+            <input id="base" name="side" type="number">
+            <label for="height">Enter the height of the square</label>
+            <input id="height" name="side" type="number">
+            <div>
+                <button type="button" class="btn btn-perimeter" onclick="calculatePerimeterTriangle()">
+                    Calculate perimeter
+                </button>
+                <button type="button" class="btn btn-area" onclick="calculateAreaTriangle()">
+                    Calculate Area
+                </button>
+            </div>
+        </form>
+    </article>
+
+    <article class="figures__card">
+        <h2>Circle <span class="material-icons-outlined">circle</span></h2>
+        <form>
+            <label for="radio">Enter the radio of the circle</label>
+            <input id="radio" name="radio" type="number">
+            <div>
+                <button type="button" class="btn btn-perimeter" onclick="calculatePerimeterCircle()">
+                    Calculate perimeter
+                </button>
+                <button type="button" class="btn btn-area" onclick="calculateAreaCircle()">
+                    Calculate Area
+                </button>
+            </div>
+        </form>
+    </article>
+
+
+</section>
 
 <!-- Connect with JS -->
 <script src="js/figures.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </body>
 </html>
