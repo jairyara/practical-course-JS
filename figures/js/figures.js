@@ -99,3 +99,18 @@ function calculateAreaCircle() {
     const area = areaCircle(value);
     swal('The area is ', area + 'cm^2', 'success');
 }
+
+
+function heightTriangle(){
+    const sideA = document.getElementById('side1');
+    const sideB = document.getElementById('side2');
+
+    const valueA = parseInt(sideA.value);
+    const valueB = parseInt(sideB.value);
+
+    if (valueA === valueB) {
+        swal('Yes', 'This is an isosceles triangle', 'success');
+    } else {
+        swal('No', 'This is not an isosceles triangle', 'warning');
+    }
+}
