@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Percentages and discounts</title>
+</head>
+<body>
+
+<header class="header">
+    <h1>Percentages and discounts</h1>
+    <p>This is the second workshop of the Practical JS Course</p>
+</header>
+
+<section class="calculator">
+    <h2>Calculate the price of your discounted products</h2>
+    <form>
+        <label for="price">Write the price of your product</label>
+        <input id="price" type="number">
+        <label for="discount">Write the discount of your product</label>
+        <input id="discount" type="number">
+        <button type="button" onclick="productPriceWithDiscount()">Calculate price with discount</button>
+        <p id="priceResult"></p>
+    </form>
+</section>
+
+<script src="js/store.js"></script>
+</body>
+</html>
