@@ -12,4 +12,12 @@
 1. Define the formulas
 2. Implement the formulas in JS
 3. Create functions
+4. Integrate JS with HTML.
+
+
+##Workshop #2 - Mean, median, mode
+
+1. Define the formulas
+2. Implement the formulas in JS
+3. Create functions
 4. Integrate JS with HTML
