@@ -15,7 +15,14 @@
 4. Integrate JS with HTML.
 
 
-##Workshop #2 - Mean, median, mode
+##Workshop #3 - Mean, median, mode
+
+1. Define the formulas
+2. Implement the formulas in JS
+3. Create functions
+4. Integrate JS with HTML
+
+##Workshop #4 - Salary analysis
 
 1. Define the formulas
 2. Implement the formulas in JS
